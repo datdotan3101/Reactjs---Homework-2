@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  background-color: rgba(0, 0, 0, 0.389);
+}
+img {
+  background-size: contain;
+  width: 11.375rem;
+  padding: 20px 10px;
+}
+.carousel {
+  background-image: url("./background.jpg");
+}
+button {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+.model {
+  position: relative;
+}
+.try-glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.glass-image {
+  position: relative;
+}
+.info-text-glass {
+  position: absolute;
+  bottom: 20.375rem;
+  left: 328px;
+  background-color: rgba(255, 255, 0, 0.529);
+  width: 17.5rem;
+}
